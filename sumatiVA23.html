@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Alejandra Priscila Mendez Couoh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="perfil">
+            <img src="ale.jpg" alt="Foto de Alejandra Priscila Mendez Couoh" class="foto-perfil">
+            <div>
+                <h1>Alejandra Priscila Mendez Couoh</h1>
+                <h2>Estudiante de Ingeniería en Sistemas Computacionales</h2>
+                <p><em>Instituto Tecnológico de Cancún | 7° semestre</em></p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="perfil">
+            <h2>Perfil Profesional</h2>
+            <article>
+                <p>
+                    Soy una estudiante apasionada por la tecnología, el desarrollo web y la innovación. 
+                    Me caracterizo por mi responsabilidad, creatividad y trabajo en equipo. 
+                    Busco seguir desarrollando mis habilidades en programación y diseño de software 
+                    mientras contribuyo a proyectos que generen un impacto positivo.
+                </p>
+                <blockquote>"La tecnología es el arte de transformar ideas en soluciones."</blockquote>
+            </article>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación Académica</h2>
+            <article>
+                <h3>Ingeniería en Sistemas Computacionales</h3>
+                <p><strong>Instituto Tecnológico de Cancún</strong> – En curso (7° semestre)</p>
+                <ul>
+                    <li>Promedio general: <mark>9.2</mark></li>
+                    <li>Proyectos destacados: Desarrollo de aplicaciones con Python y bases de datos SQL.</li>
+                    <li>Participación en eventos de programación y tecnología.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas y Personales</h2>
+            <article>
+                <ol>
+                    <li><strong>Lenguajes:</strong> Python, HTML5, CSS3, JavaScript básico</li>
+                    <li><strong>Herramientas:</strong> Git, Visual Studio Code, Canva</li>
+                    <li><strong>Bases de datos:</strong> MySQL, SQLite</li>
+                </ol>
+
+                <ul>
+                    <li>Responsable y comprometida</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Comunicación asertiva</li>
+                    <li>Creatividad y liderazgo</li>
+                </ul>
+
+                <figure>
+                    <img src="tecnm.jpg" alt="Logo del Tecnológico de Cancún">
+                    <figcaption>Orgullosamente estudiante del TecNM Cancún</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Datos Complementarios</h2>
+            <p><strong>Idiomas:</strong> Español (nativo), Inglés (intermedio)</p>
+            <p><strong>Pasatiempos:</strong> Diseño gráfico, lectura, fotografía, música.</p>
+            <p><strong>Frase favorita:</strong> <q>“Nunca pares de aprender.”</q></p>
+        </aside>
+    </main>
+
+    <footer id="contacto">
+        <p>&copy; 2025 Alejandra Priscila Mendez Couoh. Todos los derechos reservados.</p>
+        <p>Sígueme en:
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://github.com" target="_blank">GitHub</a> |
+            <a href="mailto:ale.mendez@example.com">Correo</a>
+        </p>
+    </footer>
+
+    <!-- ===================== STYLES.CSS ===================== -->
+    <style>
+        /* ---------- Reset básico ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffeef6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ffb6c1;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .perfil {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .foto-perfil {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        nav {
+            background-color: #ffc0cb;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d63384;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #d63384;
+            border-bottom: 2px solid #d63384;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+
+        article h3 {
+            color: #555;
+        }
+
+        aside {
+            background-color: #fff0f6;
+            border-left: 4px solid #ff69b4;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #ffb6c1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        figure {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        figure img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .perfil {
+                flex-direction: column;
+            }
+        }
+    </style>
+</body>
+</html>
